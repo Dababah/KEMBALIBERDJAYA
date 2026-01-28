@@ -1,0 +1,181 @@
+# 🍜 KEMBALI BERDJAYA - Landing Page UMKM
+
+![KEMBALI BERDJAYA](https://img.shields.io/badge/UMKM-Landing%20Page-orange?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+**KEMBALI BERDJAYA** adalah landing page modern untuk UMKM (Usaha Mikro, Kecil, dan Menengah) yang dirancang khusus untuk membantu bisnis lokal membangun kehadiran digital yang profesional dan menarik.
+
+## 📋 Deskripsi Proyek
+
+Landing page ini dibuat untuk membantu UMKM Indonesia meningkatkan kredibilitas bisnis mereka melalui website yang profesional dan responsif. Proyek ini menggunakan teknologi web modern dengan desain yang menarik dan user-friendly.
+
+### ✨ Fitur Utama
+
+- 🏠 **Hero Section** - Tampilan pembuka yang menarik perhatian pengunjung
+- 📖 **About Section** - Informasi lengkap tentang bisnis UMKM
+- 🍽️ **Menu Highlights** - Showcase produk/layanan unggulan
+- 🎁 **Promos** - Tampilan promosi dan penawaran khusus
+- 📍 **Location** - Informasi lokasi dan kontak bisnis
+- 📱 **Responsive Design** - Tampilan optimal di semua perangkat
+- 🎨 **Modern UI/UX** - Desain modern dengan komponen Radix UI
+
+## 🚀 Cara Menjalankan Proyek
+
+### Prasyarat
+
+Pastikan Anda telah menginstal:
+- **Node.js** (versi 20 atau lebih baru)
+- **npm** atau **yarn**
+
+### Instalasi
+
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/Dababah/KB.git
+   cd KB
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+   atau
+   ```bash
+   yarn install
+   ```
+
+3. **Jalankan development server:**
+   ```bash
+   npm run dev
+   ```
+   atau
+   ```bash
+   yarn dev
+   ```
+
+4. **Buka browser** dan akses:
+   ```
+   http://localhost:5173
+   ```
+
+### Build untuk Production
+
+Untuk membuat build production-ready:
+
+```bash
+npm run build
+```
+
+File hasil build akan tersimpan di folder `dist/`.
+
+## 🛠️ Teknologi yang Digunakan
+
+### Core Technologies
+- **React 18.3.1** - Library JavaScript untuk membangun user interface
+- **TypeScript** - Superset JavaScript dengan type safety
+- **Vite 6.3.5** - Build tool yang cepat dan modern
+
+### UI Components & Libraries
+- **Radix UI** - Komponen UI yang accessible dan customizable
+- **Lucide React** - Icon library modern
+- **Tailwind CSS** - Utility-first CSS framework
+- **Class Variance Authority** - Utility untuk variant styling
+- **Embla Carousel** - Carousel/slider yang smooth
+- **Recharts** - Library untuk data visualization
+- **React Hook Form** - Form management yang efisien
+- **Next Themes** - Theme management (dark/light mode)
+
+## 📁 Struktur Proyek
+
+```
+KEMBALI BERDJAYA/
+├── src/
+│   ├── components/        # Komponen React
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── MenuHighlights.tsx
+│   │   ├── Promos.tsx
+│   │   ├── Location.tsx
+│   │   ├── Footer.tsx
+│   │   └── Navigation.tsx
+│   ├── styles/           # File styling
+│   ├── App.tsx           # Komponen utama aplikasi
+│   ├── main.tsx          # Entry point aplikasi
+│   └── index.css         # Global styles
+├── index.html            # HTML template
+├── package.json          # Dependencies dan scripts
+├── vite.config.ts        # Konfigurasi Vite
+└── README.md            # Dokumentasi proyek
+```
+
+## 🎯 Tentang UMKM
+
+**UMKM** adalah singkatan dari **Usaha Mikro, Kecil, dan Menengah**. Di Indonesia, sektor ini merupakan tulang punggung ekonomi karena mencakup unit usaha yang dikelola oleh perorangan maupun kelompok kecil.
+
+### Klasifikasi UMKM:
+
+1. **Usaha Mikro**
+   - Usaha produktif milik orang perorangan
+   - Kriteria aset dan omzet paling kecil
+   - Contoh: pedagang pasar, pedagang kaki lima, warung kelontong
+
+2. **Usaha Kecil**
+   - Usaha ekonomi produktif yang berdiri sendiri
+   - Bukan merupakan anak perusahaan dari perusahaan besar
+   - Contoh: toko retail, bengkel, katering rumahan
+
+3. **Usaha Menengah**
+   - Usaha dengan skala lebih besar dari usaha kecil
+   - Tetap bukan bagian dari konglomerasi besar
+   - Contoh: restoran, pabrik kecil, distributor lokal
+
+## 💡 Mengapa Landing Page Penting untuk UMKM?
+
+### 1. 🏆 Membangun Kredibilitas
+Memiliki website atau halaman arahan membuat bisnis lokal terlihat lebih profesional dan terpercaya di mata konsumen.
+
+### 2. 🌍 Jangkauan Pasar Lebih Luas
+Memungkinkan produk UMKM ditemukan oleh calon pelanggan di luar wilayah geografis mereka melalui internet, membuka peluang pasar yang lebih besar.
+
+### 3. 📱 Katalog Digital
+Berfungsi sebagai tempat memamerkan produk atau jasa secara rapi tanpa harus mencetak brosur fisik, lebih hemat biaya dan mudah diupdate.
+
+### 4. 📈 Meningkatkan Penjualan
+Dengan kehadiran online yang kuat, UMKM dapat menjangkau lebih banyak pelanggan potensial dan meningkatkan konversi penjualan.
+
+### 5. 💬 Komunikasi Lebih Mudah
+Pelanggan dapat dengan mudah menghubungi bisnis melalui informasi kontak yang tersedia di website.
+
+## 🤝 Kontribusi
+
+Kontribusi selalu diterima! Jika Anda ingin berkontribusi:
+
+1. Fork repository ini
+2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
+
+## 📄 Lisensi
+
+Proyek ini dibuat untuk keperluan edukasi dan pengembangan UMKM di Indonesia.
+
+## 📞 Kontak & Support
+
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan:
+- Buat issue di repository ini
+- Hubungi melalui GitHub: [@Dababah](https://github.com/Dababah)
+
+## 🙏 Acknowledgments
+
+- Desain original dari [Figma Community](https://www.figma.com/design/vmREGal8inMBFdFjhda3mH/Landing-Page-for-UMKM)
+- Terima kasih kepada komunitas open source untuk semua library yang digunakan
+- Dukungan untuk UMKM Indonesia 🇮🇩
+
+---
+
+**Dibuat dengan ❤️ untuk UMKM Indonesia**
+
+*Membantu bisnis lokal berkembang di era digital*
